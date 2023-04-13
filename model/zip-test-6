@@ -1,0 +1,363 @@
+2023-04-06 12:17:32.653 DEBUG int main(int, const char **): 79 - ModelName in argv[0]: U3421WE
+2023-04-06 12:17:32.653 DEBUG int main(int, const char **): 85 - nf_argc = 1
+2023-04-06 12:17:32.654 DEBUG int main(int, const char **): 88 - argv[0]=/Applications/Dell/firmware/U3421WE/firmwareupdater.app/Contents/MacOS/firmwareupdater
+2023-04-06 12:17:32.654 DEBUG int main(int, const char **):261 - ********* Normal ISP *********
+2023-04-06 12:17:32.654 DEBUG int main(int, const char **):277 - execute firmwareupdater.app only
+2023-04-06 12:17:32.654 DEBUG int main(int, const char **):279 - model: U3421WE
+2023-04-06 12:17:32.655 DEBUG int main(int, const char **):291 - get upg file : U3421WE_M2B107_20220713(ISP).UPG
+2023-04-06 12:17:32.655 DEBUG int main(int, const char **):297 - UPG_PATH : /Applications/Dell/firmware/U3421WE/U3421WE_M2B107_20220713(ISP).UPG
+2023-04-06 12:17:32.656 DEBUG int main(int, const char **):310 - appDir= /Applications/Dell/firmware/U3421WE/
+2023-04-06 12:17:32.656 DEBUG int main(int, const char **):314 - HELP_PATH : /Applications/Dell/firmware/U3421WE/Help/
+2023-04-06 12:17:32.801 DEBUG -[AppDelegate applicationDidFinishLaunching:]:290 - ISP Tool version V2.0.0.67
+2023-04-06 12:17:32.801 DEBUG -[AppDelegate applicationDidFinishLaunching:]:293 - arg num = 1
+2023-04-06 12:17:32.821 DEBUG -[AppDelegate supported_hid_attached:::]:4692 - nf_dev = 1
+2023-04-06 12:17:32.821 DEBUG -[AppDelegate supported_hid_attached:::]:4693 - -[AppDelegate supported_hid_attached:::] chipName = MUSB5906C
+2023-04-06 12:17:33.833 DEBUG -[AppDelegate getUsbToI2CInterface:]:838 - invalid Usb Hub type (null)
+2023-04-06 12:17:33.834 DEBUG -[AppDelegate getUsbToI2CInterface:]:867 - fromWhichHub: (null) -> 0xFF
+2023-04-06 12:17:33.835 DEBUG -[AppDelegate GetUPGInfo]:336 - Parsing UPG file.
+2023-04-06 12:17:33.835 DEBUG -[AppDelegate GetUPGInfo]:339 - Default UPG path is /Applications/Dell/firmware/U3421WE/U3421WE_M2B107_20220713(ISP).UPG
+2023-04-06 12:17:33.839 DEBUG -[UpdatePackageInfo isFakeUpg:]: 65 - Error reading file: The file ‚ÄúU3421WE_M2B107_20220713(ISP).UPG‚Äù couldn‚Äôt be opened using text encoding Unicode (UTF-8).
+2023-04-06 12:17:33.840 DEBUG -[UpdatePackageInfo isFakeUpg:]: 76 - is fake UPG ? -> FALSE
+2023-04-06 12:17:33.840 DEBUG -[UpdatePackageInfo parse:]: 97 - -------------- UPG Parse Brief info --------------------
+2023-04-06 12:17:33.841 DEBUG -[UpdatePackageInfo parse:]:110 - UPG - version: M2B107
+2023-04-06 12:17:33.842 DEBUG -[UpdatePackageInfo parse:]:116 - UPG - model name: U3421WE
+2023-04-06 12:17:33.842 DEBUG -[UpdatePackageInfo parse:]:125 - UPG - upg version: 02
+2023-04-06 12:17:33.842 DEBUG -[UpdatePackageInfo parse:]:131 - UPG - block num: 03
+2023-04-06 12:17:33.842 DEBUG -[UpdatePackageInfo parse:]:146 - UPG info - checksum: 0x120A
+2023-04-06 12:17:33.842 DEBUG -[UpdatePackageInfo parse:]:158 - UPG - calculated checksum: 0x120A
+2023-04-06 12:17:33.842 DEBUG -[UpdatePackageInfo parse:]:170 - -------------- UPG Parse detail block info start --------------------
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:197 - bin 1 - type : 0xD0
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:199 - bin 1 - vendor : 0x00
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:205 - bin 1 - Chip : TI TPS65987DDJ
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:211 - bin 1 - update from : 0
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:216 - bin 1 - F/W start address : 0x110
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:221 - bin 1 - F/W length : 13632
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:230 - bin 1 - F/W info start address : 13632
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:357 - bin 1 - version : 5CD103
+2023-04-06 12:17:33.843 DEBUG -[UpdatePackageInfo parse:]:469 - bin 1 - F/W flashing address : 0x0
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:475 - bin 1 - F/W write complete address : 0xFFFFFFFF
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:481 - bin 1 - F/W checksum : 0x79C
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:492 - bin 1 - F/W SecureType : 0xFF
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:498 - bin 1 - F/W FromWhichHub : 0x4
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:504 - bin 1 - F/W I2C hubSpeed : 0xFF
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:514 - bin 1 - block checksum : 0x2120
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:522 - bin 1 - calculated checksum: 0x2120
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:538 - ----------------------------------------------
+2023-04-06 12:17:33.844 DEBUG -[UpdatePackageInfo parse:]:197 - bin 2 - type : 0xE0
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:199 - bin 2 - vendor : 0x02
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:205 - bin 2 - Chip : MST9U03RN-3
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:211 - bin 2 - update from : 0
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:216 - bin 2 - F/W start address : 0x3653
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:221 - bin 2 - F/W length : 1416460
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:230 - bin 2 - F/W info start address : 1416460
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:277 - bin 2 - model : U3421WE
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:282 - bin 2 - version : M2B107
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:295 - bin 2 - panel source : 00000020 ,length=1
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:317 - bin 2 - PD controller : 03
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:325 - bin 2 - bin Type : 01
+2023-04-06 12:17:33.845 DEBUG -[UpdatePackageInfo parse:]:343 - bin 2 - IDCode : 01 (No IDCode,set to 0x01)
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:469 - bin 2 - F/W flashing address : 0x400000
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:475 - bin 2 - F/W write complete address : 0x7FFFFE
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:481 - bin 2 - F/W checksum : 0x5F8E
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:492 - bin 2 - F/W SecureType : 0xFF
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:498 - bin 2 - F/W FromWhichHub : 0x4
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:504 - bin 2 - F/W I2C hubSpeed : 0xFF
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:514 - bin 2 - block checksum : 0x23F6
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:522 - bin 2 - calculated checksum: 0x23F6
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:538 - ----------------------------------------------
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:197 - bin 3 - type : 0xE0
+2023-04-06 12:17:33.846 DEBUG -[UpdatePackageInfo parse:]:199 - bin 3 - vendor : 0x02
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:205 - bin 3 - Chip : MST9U03RN-3
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:211 - bin 3 - update from : 0
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:216 - bin 3 - F/W start address : 0x15D36F
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:221 - bin 3 - F/W length : 1416452
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:230 - bin 3 - F/W info start address : 1416452
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:277 - bin 3 - model : U3421WE
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:282 - bin 3 - version : M2B107
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:295 - bin 3 - panel source : 00000010 ,length=1
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:317 - bin 3 - PD controller : 03
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:325 - bin 3 - bin Type : 01
+2023-04-06 12:17:33.847 DEBUG -[UpdatePackageInfo parse:]:343 - bin 3 - IDCode : 01 (No IDCode,set to 0x01)
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:469 - bin 3 - F/W flashing address : 0x400000
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:475 - bin 3 - F/W write complete address : 0x7FFFFE
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:481 - bin 3 - F/W checksum : 0xB9A7
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:492 - bin 3 - F/W SecureType : 0xFF
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:498 - bin 3 - F/W FromWhichHub : 0x4
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:504 - bin 3 - F/W I2C hubSpeed : 0xFF
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:514 - bin 3 - block checksum : 0x2527
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:522 - bin 3 - calculated checksum: 0x2527
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:538 - ----------------------------------------------
+2023-04-06 12:17:33.848 DEBUG -[UpdatePackageInfo parse:]:550 - -------------- UPG Parse detail block info End --------------------
+2023-04-06 12:17:34.080 DEBUG -[UpdatePackageInfo parse:]:560 - calculated UPG checksum: A66A
+2023-04-06 12:17:34.080 DEBUG -[UpdatePackageInfo parse:]:561 - -------------- UPG Parse End --------------------
+2023-04-06 12:17:34.084 DEBUG -[AppDelegate DetectProcess:retry:closeAPP::]:223 - Process firmwareupdater found
+2023-04-06 12:17:34.879 DEBUG -[MchpHidDevice init:]: 65 - device opened successfully
+2023-04-06 12:17:34.880 DEBUG -[AppDelegate getUsbToI2CInterface:]:867 - fromWhichHub: MUSB5906C -> 0x04
+2023-04-06 12:17:35.391 DEBUG +[MonitorInfo getManufacturerID:]: 55 - getManufacturerID: 0x62
+2023-04-06 12:17:35.392 DEBUG -[AppDelegate initialize:]:507 - appDir= /Applications/Dell/firmware/U3421WE/
+2023-04-06 12:17:35.392 DEBUG -[AppDelegate initialize:]:511 - HELP_PATH : /Applications/Dell/firmware/U3421WE/Help/
+2023-04-06 12:17:35.392 DEBUG -[AppDelegate initialize:]:515 - Launch Qisda Mac ISP tool
+2023-04-06 12:17:35.393 DEBUG -[AppDelegate getMonitorInfo]:1056 - getMonitorInfo
+2023-04-06 12:17:35.393 DEBUG +[MonitorInfo turnOffBurnInAndLeaveFactory:]:395 - +[MonitorInfo turnOffBurnInAndLeaveFactory:]
+2023-04-06 12:17:35.394 DEBUG +[MonitorInfo turnOffBurnInAndLeaveFactory:]:400 - writei2c return value: 0
+2023-04-06 12:17:35.899 DEBUG +[MonitorInfo turnOffBurnInAndLeaveFactory:]:404 - writei2c return value: 0
+2023-04-06 12:17:40.911 DEBUG +[MonitorInfo getCurrentVersion:]:651 - +[MonitorInfo getCurrentVersion:]
+2023-04-06 12:17:40.913 DEBUG +[MonitorInfo getCurrentVersion:]:667 - writei2c return value: 0
+2023-04-06 12:17:41.419 DEBUG +[MonitorInfo getCurrentVersion:]:677 - C8 Read: 
+
+2023-04-06 12:17:41.422 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 6E 
+2023-04-06 12:17:41.423 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 88 
+2023-04-06 12:17:41.423 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 02 
+2023-04-06 12:17:41.424 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 00 
+2023-04-06 12:17:41.424 DEBUG +[MonitorInfo getCurrentVersion:]:680 - C8 
+2023-04-06 12:17:41.424 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 01 
+2023-04-06 12:17:41.424 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 00 
+2023-04-06 12:17:41.425 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 00 
+2023-04-06 12:17:41.425 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 56 
+2023-04-06 12:17:41.425 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 05 
+2023-04-06 12:17:41.425 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 2E 
+2023-04-06 12:17:42.440 DEBUG +[MonitorInfo getCurrentVersion:]:788 - currentVer = M2B105
+2023-04-06 12:17:42.441 DEBUG +[MonitorInfo getModelName:]:802 - +[MonitorInfo getModelName:]
+2023-04-06 12:17:42.946 DEBUG +[MonitorInfo getModelName:]:821 - GetModelName readValue = 93
+2023-04-06 12:17:42.947 DEBUG +[MonitorInfo getModelName:]:951 - ModelName = U3421WE
+2023-04-06 12:17:42.947 DEBUG +[MonitorInfo getModelName:]:952 - GetModelName Successfully, retry count = 0
+2023-04-06 12:17:42.948 DEBUG +[MonitorInfo getServiceTag:]:594 - writei2c return value: 0
+2023-04-06 12:17:43.459 DEBUG -[AppDelegate getMonitorInfo]:1133 - serviceTag: 3GFC753
+2023-04-06 12:17:43.461 DEBUG +[MonitorInfo getIDCode:]:619 - writei2c return value: 0
+2023-04-06 12:17:44.479 DEBUG +[MonitorInfo getScalerChip:]:1188 - +[MonitorInfo getScalerChip:]
+2023-04-06 12:17:44.991 DEBUG +[MonitorInfo getScalerChip:]:1211 - 0xFF 0xFE read:
+2023-04-06 12:17:44.992 DEBUG +[MonitorInfo getScalerChip:]:1214 - 6E
+2023-04-06 12:17:44.993 DEBUG +[MonitorInfo getScalerChip:]:1214 - 90
+2023-04-06 12:17:44.993 DEBUG +[MonitorInfo getScalerChip:]:1214 - 02
+2023-04-06 12:17:44.993 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2023-04-06 12:17:44.994 DEBUG +[MonitorInfo getScalerChip:]:1214 - FF
+2023-04-06 12:17:44.994 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2023-04-06 12:17:44.994 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2023-04-06 12:17:44.994 DEBUG +[MonitorInfo getScalerChip:]:1214 - 4D
+2023-04-06 12:17:44.994 DEBUG +[MonitorInfo getScalerChip:]:1214 - 53
+2023-04-06 12:17:44.994 DEBUG +[MonitorInfo getScalerChip:]:1214 - 54
+2023-04-06 12:17:44.994 DEBUG +[MonitorInfo getScalerChip:]:1214 - 39
+2023-04-06 12:17:44.995 DEBUG +[MonitorInfo getScalerChip:]:1214 - 55
+2023-04-06 12:17:44.995 DEBUG +[MonitorInfo getScalerChip:]:1214 - 30
+2023-04-06 12:17:44.995 DEBUG +[MonitorInfo getScalerChip:]:1214 - 33
+2023-04-06 12:17:44.995 DEBUG +[MonitorInfo getScalerChip:]:1214 - 52
+2023-04-06 12:17:44.995 DEBUG +[MonitorInfo getScalerChip:]:1214 - 4E
+2023-04-06 12:17:44.995 DEBUG +[MonitorInfo getScalerChip:]:1214 - 2D
+2023-04-06 12:17:44.995 DEBUG +[MonitorInfo getScalerChip:]:1214 - 33
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - 74
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - BA
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - CC
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - 59
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - 5A
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - DB
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - 7B
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - 82
+2023-04-06 12:17:44.996 DEBUG +[MonitorInfo getScalerChip:]:1214 - 96
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getScalerChip:]:1214 - 09
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getScalerChip:]:1214 - 59
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getScalerChip:]:1214 - FB
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getScalerChip:]:1214 - 06
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getScalerChip:]:1214 - AE
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getScalerChip:]:1239 - scalerName matches support scaler list
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getScalerChip:]:1266 - scalerChip = MST9U03RN-3
+2023-04-06 12:17:44.997 DEBUG +[MonitorInfo getPdChipName:]:1127 - +[MonitorInfo getPdChipName:]
+2023-04-06 12:17:45.509 DEBUG +[MonitorInfo getPdChipName:]:1147 - 0xFF 0xFB read:
+2023-04-06 12:17:45.510 DEBUG +[MonitorInfo getPdChipName:]:1150 - 6E
+2023-04-06 12:17:45.511 DEBUG +[MonitorInfo getPdChipName:]:1150 - 93
+2023-04-06 12:17:45.511 DEBUG +[MonitorInfo getPdChipName:]:1150 - 02
+2023-04-06 12:17:45.511 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2023-04-06 12:17:45.511 DEBUG +[MonitorInfo getPdChipName:]:1150 - FF
+2023-04-06 12:17:45.511 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2023-04-06 12:17:45.512 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2023-04-06 12:17:45.512 DEBUG +[MonitorInfo getPdChipName:]:1150 - 54
+2023-04-06 12:17:45.512 DEBUG +[MonitorInfo getPdChipName:]:1150 - 49
+2023-04-06 12:17:45.512 DEBUG +[MonitorInfo getPdChipName:]:1150 - 20
+2023-04-06 12:17:45.512 DEBUG +[MonitorInfo getPdChipName:]:1150 - 54
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 50
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 53
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 36
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 35
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 39
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 38
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 37
+2023-04-06 12:17:45.513 DEBUG +[MonitorInfo getPdChipName:]:1150 - 44
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 44
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 4A
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 45
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 5A
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - DB
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 7B
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 82
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 96
+2023-04-06 12:17:45.514 DEBUG +[MonitorInfo getPdChipName:]:1150 - 09
+2023-04-06 12:17:45.515 DEBUG +[MonitorInfo getPdChipName:]:1150 - 59
+2023-04-06 12:17:45.515 DEBUG +[MonitorInfo getPdChipName:]:1150 - FB
+2023-04-06 12:17:45.515 DEBUG +[MonitorInfo getPdChipName:]:1150 - 06
+2023-04-06 12:17:45.515 DEBUG +[MonitorInfo getPdChipName:]:1150 - AE
+2023-04-06 12:17:45.518 DEBUG -[TPS65987D getFirmwareVersion]: 57 - current PD fwVersion = 5CD102
+2023-04-06 12:17:45.518 DEBUG -[AppDelegate getMonitorInfo]:1418 - IDCODE : 1
+2023-04-06 12:17:45.518 DEBUG -[AppDelegate getMonitorInfo]:1418 - MODEL_NAME : U3421WE
+2023-04-06 12:17:45.518 DEBUG -[AppDelegate getMonitorInfo]:1418 - SCALER_NAME : MST9U03RN-3
+2023-04-06 12:17:45.518 DEBUG -[AppDelegate getMonitorInfo]:1418 - PD_NAME : TI TPS65987DDJ
+2023-04-06 12:17:45.518 DEBUG -[AppDelegate getMonitorInfo]:1418 - CURRENT_VERSION : M2B105
+2023-04-06 12:17:45.518 DEBUG -[AppDelegate getMonitorInfo]:1418 - PD_VERSION : 5CD102
+2023-04-06 12:17:45.518 DEBUG -[AppDelegate getMonitorInfo]:1407 - PANEL_SOURCE : 0x20
+2023-04-06 12:17:45.519 DEBUG -[AppDelegate refreshUi]_block_invoke:1735 - ===== New FW version to update =====
+2023-04-06 12:17:45.519 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - U3421WE
+2023-04-06 12:17:45.519 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - TI TPS65987DDJ:5CD103
+2023-04-06 12:17:45.519 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - MST9U03RN-3:M2B107(panel:0x00000020)
+2023-04-06 12:17:45.525 DEBUG -[AppDelegate DetectProcess:retry:closeAPP::]:223 - Process firmwareupdater found
+2023-04-06 12:17:47.911 DEBUG -[AppDelegate Update:]:2212 - Update button pressed
+2023-04-06 12:17:47.911 DEBUG -[AppDelegate Update:]:2235 - *** Start Write Flash ***
+2023-04-06 12:17:47.912 DEBUG +[MonitorInfo writeStartISPFlag:]:114 - select Bin index: 2
+2023-04-06 12:17:47.912 DEBUG +[MonitorInfo writeStartISPFlag:]:131 - writeStartISPFlag: 87, 03, FE, 03, 00, 04, 41, 07, 04
+2023-04-06 12:17:48.920 DEBUG +[MonitorInfo writeStartISPFlag:]:141 - writeStartISPFlag ok
+2023-04-06 12:17:48.921 DEBUG -[UpdatePackageInfo getUpdateBinWithPanelNumberAndScaler::::]:816 - IDCode match for bin 2
+2023-04-06 12:17:48.922 DEBUG -[MStarScaler MST_EnterIspMode]: 52 - -[MStarScaler MST_EnterIspMode]
+2023-04-06 12:17:48.923 DEBUG -[TPS65987D Update:]:676 - update Verify Low region
+2023-04-06 12:17:49.141 DEBUG -[TPS65987D FLrr:]:212 - get address :0x00002000
+2023-04-06 12:17:49.142 DEBUG -[TPS65987D FLrr:]:217 - get address success
+2023-04-06 12:17:49.142 DEBUG -[TPS65987D updateProcess::]:433 - Location = 0x00002000
+2023-04-06 12:17:49.142 DEBUG -[TPS65987D updateProcess::]:447 - expected Location = 0x00002000
+2023-04-06 12:17:49.142 DEBUG -[TPS65987D updateProcess::]:451 - get Location as expected = 0x00002000
+2023-04-06 12:17:49.142 DEBUG -[TPS65987D updateProcess::]:470 - Erase program
+2023-04-06 12:17:49.142 DEBUG -[TPS65987D updateProcess::]:475 - TPS6598x Flash Memory Erase 4 sectors
+2023-04-06 12:17:49.263 DEBUG -[TPS65987D verifyCmdComplete]:139 - cmdCompleteAns[0]= 04, cmdCompleteAns[1]= 46, len = 0
+2023-04-06 12:17:49.372 DEBUG -[TPS65987D verifyCmdComplete]:139 - cmdCompleteAns[0]= 04, cmdCompleteAns[1]= 46, len = 0
+2023-04-06 12:17:49.492 DEBUG -[TPS65987D updateProcess::]:482 - Set firmware start location
+2023-04-06 12:17:49.761 DEBUG -[TPS65987D updateProcess::]:498 - Writing FW file
+2023-04-06 12:18:25.467 DEBUG -[TPS65987D FLrr:]:212 - get address :0x00002000
+2023-04-06 12:18:25.468 DEBUG -[TPS65987D FLrr:]:217 - get address success
+2023-04-06 12:18:25.591 DEBUG -[TPS65987D FLvy]:396 - Flash Verification pass!
+2023-04-06 12:18:25.592 DEBUG -[TPS65987D Update:]:685 - bypass GAID..no PD warm-up reset
+2023-04-06 12:18:25.593 DEBUG -[AppDelegate printUpdateTime::]:2093 - ****** PD update time 0 Min 36 Sec ******
+2023-04-06 12:18:25.593 DEBUG -[AppDelegate doUpdate]:4495 - PD update completed
+2023-04-06 12:18:35.595 DEBUG -[UpdatePackageInfo getUpdateBinWithPanelNumberAndScaler::::]:816 - IDCode match for bin 2
+2023-04-06 12:18:35.596 DEBUG -[UpdatePackageInfo getUpdateBinWithPanelNumberAndScaler::::]:816 - IDCode match for bin 2
+2023-04-06 12:18:35.596 DEBUG -[MST9U DisableWriteProtect]: 28 - -[MST9U DisableWriteProtect]
+2023-04-06 12:18:35.596 DEBUG -[MStarScaler MST_IicBusCtrl]:113 - -[MStarScaler MST_IicBusCtrl]
+2023-04-06 12:18:35.650 DEBUG -[MStarScaler Enter_SingleStepMode]: 93 - -[MStarScaler Enter_SingleStepMode]
+2023-04-06 12:18:35.660 DEBUG -[MStarScaler MST_ReadScalerReg::]:142 - -[MStarScaler MST_ReadScalerReg::]
+2023-04-06 12:18:35.663 DEBUG -[MStarScaler MST_WriteScalerReg:::]:123 - -[MStarScaler MST_WriteScalerReg:::]
+2023-04-06 12:18:35.664 DEBUG -[MStarScaler MST_ReadScalerReg::]:142 - -[MStarScaler MST_ReadScalerReg::]
+2023-04-06 12:18:35.667 DEBUG -[MStarScaler MST_WriteScalerReg:::]:123 - -[MStarScaler MST_WriteScalerReg:::]
+2023-04-06 12:18:35.669 DEBUG -[MStarScaler Enter_SingleStepMode]: 93 - -[MStarScaler Enter_SingleStepMode]
+2023-04-06 12:18:35.677 DEBUG -[MStarScaler MST_ReadScalerReg::]:142 - -[MStarScaler MST_ReadScalerReg::]
+2023-04-06 12:18:35.680 DEBUG -[MStarScaler MST_WriteScalerReg:::]:123 - -[MStarScaler MST_WriteScalerReg:::]
+2023-04-06 12:18:35.680 DEBUG -[MStarScaler enableFlashWriteProtection:]:215 - -[MStarScaler enableFlashWriteProtection:]
+2023-04-06 12:18:35.691 DEBUG -[MStarScaler enableFlashWriteProtection:]:220 - 1.enableFlashWriteProtection: OriginalStatus = 0 
+
+2023-04-06 12:18:35.693 DEBUG -[MStarScaler MST_ISPWriteStatus:]:201 - -[MStarScaler MST_ISPWriteStatus:]
+2023-04-06 12:18:35.723 DEBUG -[MStarScaler enableFlashWriteProtection:]:232 - EnableFlashWriteProtection: result = true 
+
+2023-04-06 12:18:35.723 DEBUG -[MStarScaler startEraseBlock::::]:426 - startEraseBlock
+2023-04-06 12:18:35.727 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x7F0000
+2023-04-06 12:18:36.302 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:7F0000 erase success.
+
+2023-04-06 12:18:36.303 DEBUG -[MStarScaler startEraseBlock::::]:426 - startEraseBlock
+2023-04-06 12:18:36.307 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x400000
+2023-04-06 12:18:36.858 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:400000 erase success.
+
+2023-04-06 12:18:36.860 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x410000
+2023-04-06 12:18:37.427 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:410000 erase success.
+
+2023-04-06 12:18:37.430 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x420000
+2023-04-06 12:18:37.992 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:420000 erase success.
+
+2023-04-06 12:18:37.994 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x430000
+2023-04-06 12:18:38.551 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:430000 erase success.
+
+2023-04-06 12:18:38.553 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x440000
+2023-04-06 12:18:39.118 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:440000 erase success.
+
+2023-04-06 12:18:39.121 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x450000
+2023-04-06 12:18:39.685 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:450000 erase success.
+
+2023-04-06 12:18:39.687 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x460000
+2023-04-06 12:18:40.241 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:460000 erase success.
+
+2023-04-06 12:18:40.244 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x470000
+2023-04-06 12:18:40.805 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:470000 erase success.
+
+2023-04-06 12:18:40.808 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x480000
+2023-04-06 12:18:41.381 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:480000 erase success.
+
+2023-04-06 12:18:41.384 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x490000
+2023-04-06 12:18:41.950 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:490000 erase success.
+
+2023-04-06 12:18:41.953 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x4A0000
+2023-04-06 12:18:42.521 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:4A0000 erase success.
+
+2023-04-06 12:18:42.523 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x4B0000
+2023-04-06 12:18:43.085 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:4B0000 erase success.
+
+2023-04-06 12:18:43.088 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x4C0000
+2023-04-06 12:18:43.654 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:4C0000 erase success.
+
+2023-04-06 12:18:43.657 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x4D0000
+2023-04-06 12:18:44.220 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:4D0000 erase success.
+
+2023-04-06 12:18:44.223 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x4E0000
+2023-04-06 12:18:44.788 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:4E0000 erase success.
+
+2023-04-06 12:18:44.790 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x4F0000
+2023-04-06 12:18:45.348 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:4F0000 erase success.
+
+2023-04-06 12:18:45.351 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x500000
+2023-04-06 12:18:45.907 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:500000 erase success.
+
+2023-04-06 12:18:45.910 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x510000
+2023-04-06 12:18:46.453 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:510000 erase success.
+
+2023-04-06 12:18:46.455 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x520000
+2023-04-06 12:18:47.017 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:520000 erase success.
+
+2023-04-06 12:18:47.020 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x530000
+2023-04-06 12:18:47.587 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:530000 erase success.
+
+2023-04-06 12:18:47.590 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x540000
+2023-04-06 12:18:48.155 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:540000 erase success.
+
+2023-04-06 12:18:48.158 DEBUG -[MStarScaler MST_eraseBlock:]:389 - -[MStarScaler MST_eraseBlock:]: addr = 0x550000
+2023-04-06 12:18:48.724 DEBUG -[MStarScaler startEraseBlock::::]:439 - Block:550000 erase success.
+
+2023-04-06 12:18:48.725 DEBUG -[MStarScaler doWriteFlash:::]:488 - -[MStarScaler doWriteFlash:::]
+2023-04-06 12:22:22.952 DEBUG -[MStarScaler writeFlashVerify:::]:576 - -[MStarScaler writeFlashVerify:::]
+2023-04-06 12:24:41.697 DEBUG -[MStarScaler writeFlashVerify:::]:685 - Total Verify fail re-write count = 0
+2023-04-06 12:24:41.698 DEBUG -[MStarScaler writeFwUpdateSuccess:]:565 - -[MStarScaler writeFwUpdateSuccess:]
+2023-04-06 12:24:41.711 DEBUG -[MStarScaler enableFlashWriteProtection:]:215 - -[MStarScaler enableFlashWriteProtection:]
+2023-04-06 12:24:41.711 DEBUG -[MStarScaler enableFlashWriteProtection:]:228 - 2.enableFlashWriteProtection: OriginalStatus = 0 
+
+2023-04-06 12:24:41.711 DEBUG -[MStarScaler MST_ISPWriteStatus:]:201 - -[MStarScaler MST_ISPWriteStatus:]
+2023-04-06 12:24:41.720 DEBUG -[MStarScaler enableFlashWriteProtection:]:232 - EnableFlashWriteProtection: result = true 
+
+2023-04-06 12:24:41.721 DEBUG -[MStarScaler MST_ExitIspMode]: 67 - -[MStarScaler MST_ExitIspMode]
+2023-04-06 12:24:41.721 DEBUG -[MStarScaler Exit_SingleStepMode]:101 - -[MStarScaler Exit_SingleStepMode]
+2023-04-06 12:24:41.747 DEBUG -[MStarScaler Exit_SerialDebugMode]: 87 - -[MStarScaler Exit_SerialDebugMode]
+2023-04-06 12:24:41.749 DEBUG -[RunCommands runCommand::]: 35 - run command:tccutil reset Accessibility com.oem.qisda.firmwareupdater
+2023-04-06 12:24:41.781 DEBUG -[RunCommands runCommand::]: 35 - run command:tccutil reset ListenEvent com.oem.qisda.firmwareupdater
+2023-04-06 12:24:41.801 DEBUG -[AppDelegate printTotalUpdateTime:]:2082 - ****** Total update time 6 Min 52 Sec ******
+2023-04-06 12:24:41.801 DEBUG -[AppDelegate updateComplete]:4673 - ===== Old FW version =====
+2023-04-06 12:24:41.801 DEBUG -[AppDelegate updateComplete]:4675 - U3421WE
+2023-04-06 12:24:41.801 DEBUG -[AppDelegate updateComplete]:4675 - TI TPS65987DDJ:5CD102
+2023-04-06 12:24:41.802 DEBUG -[AppDelegate updateComplete]:4675 - MST9U03RN-3:M2B105 (panel:0x20)
+2023-04-06 12:24:41.802 DEBUG -[AppDelegate updateComplete]:4677 - ===== New FW version =====
+2023-04-06 12:24:41.802 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - U3421WE
+2023-04-06 12:24:41.802 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - TI TPS65987DDJ:5CD103
+2023-04-06 12:24:41.802 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - MST9U03RN-3:M2B107(panel:0x00000020)
+2023-04-06 12:24:41.802 DEBUG -[AppDelegate printUpdateTime::]:2093 - ****** Scaler update time 6 Min 6 Sec ******
+2023-04-06 12:24:41.802 DEBUG -[RunCommands runCommand::]: 35 - run command:tccutil reset Accessibility com.oem.qisda.firmwareupdater
+2023-04-06 12:24:41.819 DEBUG -[RunCommands runCommand::]: 35 - run command:tccutil reset ListenEvent com.oem.qisda.firmwareupdater
+2023-04-06 12:24:41.857 DEBUG -[AppDelegate supported_hid_removed]:4711 - -[AppDelegate supported_hid_removed]
+2023-04-06 12:24:41.857 DEBUG -[AppDelegate supported_hid_removed]:4717 - nf_dev = 0
+2023-04-06 12:24:51.556 DEBUG -[AppDelegate supported_hid_attached:::]:4692 - nf_dev = 1
+2023-04-06 12:24:51.557 DEBUG -[AppDelegate supported_hid_attached:::]:4693 - -[AppDelegate supported_hid_attached:::] chipName = MUSB5906C
+2023-04-06 12:25:39.498 DEBUG -[AppDelegate supported_hid_removed]:4711 - -[AppDelegate supported_hid_removed]
+2023-04-06 12:25:39.499 DEBUG -[AppDelegate supported_hid_removed]:4717 - nf_dev = 0
+2023-04-06 12:25:43.047 DEBUG -[AppDelegate supported_hid_attached:::]:4692 - nf_dev = 1
+2023-04-06 12:25:43.048 DEBUG -[AppDelegate supported_hid_attached:::]:4693 - -[AppDelegate supported_hid_attached:::] chipName = MUSB5906C
+2023-04-06 12:27:16.260 DEBUG -[AppDelegate supported_hid_removed]:4711 - -[AppDelegate supported_hid_removed]
+2023-04-06 12:27:16.261 DEBUG -[AppDelegate supported_hid_removed]:4717 - nf_dev = 0
+2023-04-06 12:27:35.190 DEBUG -[AppDelegate supported_hid_attached:::]:4692 - nf_dev = 1
+2023-04-06 12:27:35.191 DEBUG -[AppDelegate supported_hid_attached:::]:4693 - -[AppDelegate supported_hid_attached:::] chipName = MUSB5906C
+2023-04-06 12:27:50.745 DEBUG -[RunCommands runCommand::]: 35 - run command:tccutil reset Accessibility com.oem.qisda.firmwareupdater
